@@ -12,7 +12,7 @@ CEN_POINT1 = np.array([-3,1])
 CEN_POINT2 = np.array([3,3])
 
 #initialize learning rate
-N = .3
+N = .5
 
 #initialize test sets 1 and 2
 test_set11,test_set22 = make_test_data(CEN_POINT1,CEN_POINT2,50,100)

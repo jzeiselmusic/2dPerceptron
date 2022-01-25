@@ -1,4 +1,8 @@
 # take in a set of points and randomize them according to awgn
+
+# author - Mathuranathan Viswanathan (gaussianwaves.com
+# This code is part of the book Digital Modulations using Python
+
 from numpy import sum,isrealobj,sqrt
 from numpy.random import standard_normal
 

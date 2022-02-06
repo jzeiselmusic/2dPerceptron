@@ -21,8 +21,6 @@ def make_test_data(a,b,variance,n):
 
 
 def visualize_data(testdata1,testdata2,weights):
-	#x = np.arange(-20,20)
-	# w[0]x1 + w[1]x2 + w[2] = 0
 	y0 = (-weights[2] - weights[0]*0)/weights[1]
 	y1 = (-weights[2] - weights[0]*1)/weights[1]
 	testdata1x,testdata1y = zip(*testdata1)
